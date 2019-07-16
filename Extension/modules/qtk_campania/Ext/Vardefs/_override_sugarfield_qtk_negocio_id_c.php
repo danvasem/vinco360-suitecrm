@@ -1,0 +1,5 @@
+<?php
+ // created: 2019-06-20 15:15:02
+$dictionary['qtk_campania']['fields']['qtk_negocio_id_c']['inline_edit']=1;
+
+ ?>

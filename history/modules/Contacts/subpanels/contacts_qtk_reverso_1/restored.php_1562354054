@@ -1,0 +1,47 @@
+<?php
+// created: 2019-07-05 19:14:09
+$layout_defs = array (
+  'name' => 
+  array (
+    'vname' => 'LBL_NAME',
+    'widget_class' => 'SubPanelDetailViewLink',
+    'width' => '45%',
+    'default' => true,
+  ),
+  'fecha_reverso_c' => 
+  array (
+    'type' => 'datetimecombo',
+    'default' => true,
+    'vname' => 'LBL_FECHA_REVERSO',
+    'width' => '10%',
+  ),
+  'usuario_responsable_c' => 
+  array (
+    'type' => 'relate',
+    'default' => true,
+    'studio' => 'visible',
+    'vname' => 'LBL_USUARIO_RESPONSABLE',
+    'id' => 'USER_ID_C',
+    'link' => true,
+    'width' => '10%',
+    'widget_class' => 'SubPanelDetailViewLink',
+    'target_module' => 'Users',
+    'target_record_key' => 'user_id_c',
+  ),
+  'estado_c' => 
+  array (
+    'type' => 'dynamicenum',
+    'default' => true,
+    'studio' => 'visible',
+    'vname' => 'LBL_ESTADO',
+    'width' => '10%',
+  ),
+  'remove_button' => 
+  array (
+    'vname' => 'LBL_REMOVE',
+    'widget_class' => 'SubPanelRemoveButton',
+    'module' => 'qtk_reverso',
+    'width' => '5%',
+    'default' => true,
+  ),
+);

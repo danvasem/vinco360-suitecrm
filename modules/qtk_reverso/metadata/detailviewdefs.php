@@ -1,0 +1,153 @@
+<?php
+$module_name = 'qtk_reverso';
+$viewdefs [$module_name] = 
+array (
+  'DetailView' => 
+  array (
+    'templateMeta' => 
+    array (
+      'form' => 
+      array (
+        'buttons' => 
+        array (
+          0 => 'EDIT',
+          1 => 'DUPLICATE',
+          2 => 'DELETE',
+          3 => 'FIND_DUPLICATES',
+        ),
+      ),
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'DEFAULT' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL1' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+      'syncDetailEditViews' => true,
+    ),
+    'panels' => 
+    array (
+      'default' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'numero_unico_c',
+            'label' => 'LBL_NUMERO_UNICO',
+          ),
+          1 => 
+          array (
+            'name' => 'contacts_qtk_reverso_1_name',
+            'label' => 'LBL_CONTACTS_QTK_REVERSO_1_FROM_CONTACTS_TITLE',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'fecha_reverso_c',
+            'label' => 'LBL_FECHA_REVERSO',
+          ),
+          1 => 
+          array (
+            'name' => 'tipo_evento_c',
+            'studio' => 'visible',
+            'label' => 'LBL_TIPO_EVENTO',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'estado_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ESTADO',
+          ),
+          1 => 
+          array (
+            'name' => 'usuario_responsable_c',
+            'studio' => 'visible',
+            'label' => 'LBL_USUARIO_RESPONSABLE',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'qtk_negocio_qtk_reverso_1_name',
+            'label' => 'LBL_QTK_NEGOCIO_QTK_REVERSO_1_FROM_QTK_NEGOCIO_TITLE',
+          ),
+          1 => 
+          array (
+            'name' => 'qtk_local_qtk_reverso_1_name',
+            'label' => 'LBL_QTK_LOCAL_QTK_REVERSO_1_FROM_QTK_LOCAL_TITLE',
+          ),
+        ),
+      ),
+      'lbl_editview_panel1' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'reverso_tipo_evento_c',
+            'studio' => 'visible',
+            'label' => 'LBL_REVERSO_TIPO_EVENTO',
+          ),
+          1 => 
+          array (
+            'name' => 'reverso_numero_c',
+            'label' => 'LBL_REVERSO_NUMERO',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'reverso_fecha_c',
+            'label' => 'LBL_REVERSO_FECHA',
+          ),
+          1 => 
+          array (
+            'name' => 'reverso_valor_c',
+            'label' => 'LBL_REVERSO_VALOR',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'reverso_premio_c',
+            'studio' => 'visible',
+            'label' => 'LBL_REVERSO_PREMIO',
+          ),
+          1 => '',
+        ),
+      ),
+    ),
+  ),
+);
+;
+?>

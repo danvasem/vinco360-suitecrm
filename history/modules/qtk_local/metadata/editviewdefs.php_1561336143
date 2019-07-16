@@ -1,0 +1,86 @@
+<?php
+$module_name = 'qtk_local';
+$viewdefs [$module_name] = 
+array (
+  'EditView' => 
+  array (
+    'templateMeta' => 
+    array (
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'DEFAULT' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+      'syncDetailEditViews' => true,
+    ),
+    'panels' => 
+    array (
+      'default' => 
+      array (
+        0 => 
+        array (
+          0 => 'name',
+          1 => 
+          array (
+            'name' => 'direccion_c',
+            'label' => 'LBL_DIRECCION',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'local_fisico_c',
+            'label' => 'LBL_LOCAL_FISICO',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'latitud_c',
+            'label' => 'LBL_LATITUD',
+          ),
+          1 => 
+          array (
+            'name' => 'longitud_c',
+            'label' => 'LBL_LONGITUD',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'id_local_c',
+            'label' => 'LBL_ID_LOCAL',
+          ),
+          1 => 
+          array (
+            'name' => 'nombre_unico_c',
+            'label' => 'LBL_NOMBRE_UNICO',
+          ),
+        ),
+      ),
+    ),
+  ),
+);
+;
+?>

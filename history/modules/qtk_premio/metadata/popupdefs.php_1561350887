@@ -1,0 +1,50 @@
+<?php
+$popupMeta = array (
+    'moduleMain' => 'qtk_premio',
+    'varName' => 'qtk_premio',
+    'orderBy' => 'qtk_premio.name',
+    'whereClauses' => array (
+  'name' => 'qtk_premio.name',
+),
+    'searchInputs' => array (
+  0 => 'qtk_premio_number',
+  1 => 'name',
+  2 => 'priority',
+  3 => 'status',
+),
+    'listviewdefs' => array (
+  'ID_PREMIO_C' => 
+  array (
+    'type' => 'int',
+    'default' => true,
+    'label' => 'LBL_ID_PREMIO',
+    'width' => '5%',
+    'name' => 'id_premio_c',
+  ),
+  'NOMBRE_UNICO_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_NOMBRE_UNICO',
+    'width' => '33%',
+    'name' => 'nombre_unico_c',
+  ),
+  'ESTADO_C' => 
+  array (
+    'type' => 'dynamicenum',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_ESTADO',
+    'width' => '15%',
+    'name' => 'estado_c',
+  ),
+  'VALOR_C' => 
+  array (
+    'type' => 'decimal',
+    'default' => true,
+    'label' => 'LBL_VALOR',
+    'width' => '15%',
+    'name' => 'valor_c',
+  ),
+),
+);

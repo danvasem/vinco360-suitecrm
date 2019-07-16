@@ -1,0 +1,46 @@
+<?php
+// created: 2019-06-25 16:38:06
+$layout_defs = array (
+  'name' => 
+  array (
+    'vname' => 'LBL_NAME',
+    'widget_class' => 'SubPanelDetailViewLink',
+    'width' => '45%',
+    'default' => true,
+  ),
+  'date_modified' => 
+  array (
+    'type' => 'datetime',
+    'vname' => 'LBL_DATE_MODIFIED',
+    'width' => '45%',
+    'default' => true,
+  ),
+  'edit_button' => 
+  array (
+    'width' => '4%',
+    'vname' => 'LBL_EDIT_BUTTON',
+    'default' => true,
+    'widget_class' => 'SubPanelEditButton',
+  ),
+  'remove_button' => 
+  array (
+    'width' => '5%',
+    'vname' => 'LBL_REMOVE',
+    'default' => true,
+    'widget_class' => 'SubPanelRemoveButton',
+  ),
+  'puntos_ganados_c' => 
+  array (
+    'type' => 'decimal',
+    'default' => true,
+    'vname' => 'LBL_PUNTOS_GANADOS',
+    'width' => '10%',
+  ),
+  'estrellas_ganados_c' => 
+  array (
+    'type' => 'decimal',
+    'default' => true,
+    'vname' => 'LBL_ESTRELLAS_GANADOS',
+    'width' => '10%',
+  ),
+);

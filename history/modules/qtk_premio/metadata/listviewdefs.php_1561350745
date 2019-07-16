@@ -1,0 +1,43 @@
+<?php
+$module_name = 'qtk_premio';
+$listViewDefs [$module_name] = 
+array (
+  'ID_PREMIO_C' => 
+  array (
+    'type' => 'int',
+    'default' => true,
+    'label' => 'LBL_ID_PREMIO',
+    'width' => '5%',
+  ),
+  'NOMBRE_UNICO_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_NOMBRE_UNICO',
+    'width' => '65%',
+  ),
+  'ESTADO_C' => 
+  array (
+    'type' => 'dynamicenum',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_ESTADO',
+    'width' => '15%',
+  ),
+  'VALOR_C' => 
+  array (
+    'type' => 'decimal',
+    'default' => true,
+    'label' => 'LBL_VALOR',
+    'width' => '15%',
+  ),
+  'NAME' => 
+  array (
+    'width' => '32%',
+    'label' => 'LBL_NAME',
+    'default' => false,
+    'link' => true,
+  ),
+);
+;
+?>

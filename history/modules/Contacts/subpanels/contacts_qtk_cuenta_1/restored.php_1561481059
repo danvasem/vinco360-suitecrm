@@ -1,0 +1,33 @@
+<?php
+// created: 2019-06-25 16:44:14
+$layout_defs = array (
+  'name' => 
+  array (
+    'vname' => 'LBL_NAME',
+    'widget_class' => 'SubPanelDetailViewLink',
+    'width' => '45%',
+    'default' => true,
+  ),
+  'saldo_disponible_c' => 
+  array (
+    'type' => 'decimal',
+    'default' => true,
+    'vname' => 'LBL_SALDO_DISPONIBLE',
+    'width' => '10%',
+  ),
+  'fecha_apertura_c' => 
+  array (
+    'type' => 'datetimecombo',
+    'default' => true,
+    'vname' => 'LBL_FECHA_APERTURA',
+    'width' => '10%',
+  ),
+  'estado_c' => 
+  array (
+    'type' => 'dynamicenum',
+    'default' => true,
+    'studio' => 'visible',
+    'vname' => 'LBL_ESTADO',
+    'width' => '10%',
+  ),
+);

@@ -1,0 +1,36 @@
+<?php
+$module_name = 'qtk_campania';
+$listViewDefs [$module_name] = 
+array (
+  'ID_CAMPANIA_C' => 
+  array (
+    'type' => 'int',
+    'default' => true,
+    'label' => 'LBL_ID_CAMPANIA',
+    'width' => '10%',
+  ),
+  'NAME' => 
+  array (
+    'width' => '32%',
+    'label' => 'LBL_NAME',
+    'default' => true,
+    'link' => true,
+  ),
+  'FECHA_CREACION_C' => 
+  array (
+    'type' => 'datetimecombo',
+    'default' => true,
+    'label' => 'LBL_FECHA_CREACION',
+    'width' => '25%',
+  ),
+  'ESTADO_C' => 
+  array (
+    'type' => 'dynamicenum',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_ESTADO',
+    'width' => '10%',
+  ),
+);
+;
+?>

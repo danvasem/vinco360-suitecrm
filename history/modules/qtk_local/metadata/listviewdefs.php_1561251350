@@ -1,0 +1,28 @@
+<?php
+$module_name = 'qtk_local';
+$listViewDefs [$module_name] = 
+array (
+  'NAME' => 
+  array (
+    'width' => '32%',
+    'label' => 'LBL_NAME',
+    'default' => true,
+    'link' => true,
+  ),
+  'DIRECCION_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_DIRECCION',
+    'width' => '10%',
+  ),
+  'LOCAL_FISICO_C' => 
+  array (
+    'type' => 'bool',
+    'default' => true,
+    'label' => 'LBL_LOCAL_FISICO',
+    'width' => '10%',
+  ),
+);
+;
+?>

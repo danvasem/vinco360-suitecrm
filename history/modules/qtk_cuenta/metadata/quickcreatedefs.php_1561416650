@@ -1,0 +1,78 @@
+<?php
+$module_name = 'qtk_cuenta';
+$viewdefs [$module_name] = 
+array (
+  'QuickCreate' => 
+  array (
+    'templateMeta' => 
+    array (
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'DEFAULT' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+    ),
+    'panels' => 
+    array (
+      'default' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'numero_unico_c',
+            'label' => 'LBL_NUMERO_UNICO',
+          ),
+          1 => 
+          array (
+            'name' => 'saldo_disponible_c',
+            'label' => 'LBL_SALDO_DISPONIBLE',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'fecha_apertura_c',
+            'label' => 'LBL_FECHA_APERTURA',
+          ),
+          1 => 
+          array (
+            'name' => 'fecha_expiracion_c',
+            'label' => 'LBL_FECHA_EXPIRACION',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'estado_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ESTADO',
+          ),
+          1 => '',
+        ),
+      ),
+    ),
+  ),
+);
+;
+?>

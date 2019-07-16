@@ -1,0 +1,32 @@
+<?php
+$popupMeta = array (
+    'moduleMain' => 'qtk_cliente_negocio',
+    'varName' => 'qtk_cliente_negocio',
+    'orderBy' => 'qtk_cliente_negocio.name',
+    'whereClauses' => array (
+  'name' => 'qtk_cliente_negocio.name',
+),
+    'searchInputs' => array (
+  0 => 'qtk_cliente_negocio_number',
+  1 => 'name',
+  2 => 'priority',
+  3 => 'status',
+),
+    'listviewdefs' => array (
+  'NAME' => 
+  array (
+    'width' => '32%',
+    'label' => 'LBL_NAME',
+    'default' => true,
+    'link' => true,
+    'name' => 'name',
+  ),
+  'FECHA_CREACION_C' => 
+  array (
+    'type' => 'datetimecombo',
+    'default' => true,
+    'label' => 'LBL_FECHA_CREACION',
+    'width' => '30%',
+  ),
+),
+);

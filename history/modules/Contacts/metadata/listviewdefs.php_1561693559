@@ -1,0 +1,54 @@
+<?php
+$listViewDefs ['Contacts'] = 
+array (
+  'FULL_NAME' => 
+  array (
+    'type' => 'fullname',
+    'studio' => 
+    array (
+      'listview' => false,
+    ),
+    'label' => 'LBL_NAME',
+    'width' => '30%',
+    'default' => true,
+  ),
+  'CIUDAD_C' => 
+  array (
+    'type' => 'dynamicenum',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_CIUDAD',
+    'width' => '10%',
+  ),
+  'PHONE_MOBILE' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_MOBILE_PHONE',
+    'default' => true,
+  ),
+  'EMAIL1' => 
+  array (
+    'width' => '15%',
+    'label' => 'LBL_LIST_EMAIL_ADDRESS',
+    'sortable' => false,
+    'link' => true,
+    'customCode' => '{$EMAIL1_LINK}',
+    'default' => true,
+  ),
+  'FIRST_NAME' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_FIRST_NAME',
+    'width' => '15%',
+    'default' => false,
+  ),
+  'LAST_NAME' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_LAST_NAME',
+    'width' => '15%',
+    'default' => false,
+  ),
+);
+;
+?>

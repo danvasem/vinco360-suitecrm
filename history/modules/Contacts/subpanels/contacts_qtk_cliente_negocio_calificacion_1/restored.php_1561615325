@@ -1,0 +1,26 @@
+<?php
+// created: 2019-06-27 06:02:00
+$layout_defs = array (
+  'fecha_calificacion_c' => 
+  array (
+    'type' => 'datetimecombo',
+    'default' => true,
+    'vname' => 'LBL_FECHA_CALIFICACION',
+    'width' => '10%',
+  ),
+  'calificacion_c' => 
+  array (
+    'type' => 'int',
+    'default' => true,
+    'vname' => 'LBL_CALIFICACION',
+    'width' => '10%',
+  ),
+  'remove_button' => 
+  array (
+    'vname' => 'LBL_REMOVE',
+    'widget_class' => 'SubPanelRemoveButton',
+    'module' => 'qtk_cliente_negocio_calificacion',
+    'width' => '5%',
+    'default' => true,
+  ),
+);
