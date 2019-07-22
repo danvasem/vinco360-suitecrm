@@ -226,14 +226,15 @@ array (
         array (
           0 => 
           array (
-            'name' => 'fecha_registro_vinco_c',
-            'label' => 'LBL_FECHA_REGISTRO_VINCO',
-          ),
-          1 => 
-          array (
             'name' => 'tipo_login_c',
             'studio' => 'visible',
             'label' => 'LBL_TIPO_LOGIN',
+          ),
+          1 => 
+          array (
+            'name' => 'estado_vinco_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ESTADO_VINCO',
           ),
         ),
       ),
@@ -243,14 +244,13 @@ array (
         array (
           0 => 
           array (
-            'name' => 'estado_vinco_c',
-            'studio' => 'visible',
-            'label' => 'LBL_ESTADO_VINCO',
+            'name' => 'fecha_creacion_vinco_c',
+            'label' => 'LBL_FECHA_CREACION_VINCO',
           ),
           1 => 
           array (
-            'name' => 'fecha_creacion_vinco_c',
-            'label' => 'LBL_FECHA_CREACION_VINCO',
+            'name' => 'fecha_registro_vinco_c',
+            'label' => 'LBL_FECHA_REGISTRO_VINCO',
           ),
         ),
         1 => 

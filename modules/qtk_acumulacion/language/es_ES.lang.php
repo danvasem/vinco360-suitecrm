@@ -1,5 +1,5 @@
 <?php
-// created: 2019-06-20 15:27:33
+// created: 2019-07-17 22:59:34
 $mod_strings = array (
   'LBL_NUMERO_UNICO' => 'Número único VINCO:',
   'LBL_TIPO_EVENTO_QTK_TIPO_EVENTO_ID' => '&#039;Tipo de evento:&#039; (relacionado &#039;&#039; ID)',
@@ -15,4 +15,13 @@ $mod_strings = array (
   'LBL_CAMPANIA' => 'Campaña:',
   'LBL_PUNTOS_GANADOS' => 'Puntos ganados:',
   'LBL_ESTRELLAS_GANADOS' => 'Estrellas ganadas:',
+  'LNK_NEW_RECORD' => 'Crear Acumulaciones',
+  'LNK_LIST' => 'Vista de Acumulaciones',
+  'LNK_IMPORT_QTK_ACUMULACION' => 'Importar Acumulaciones',
+  'LBL_LIST_FORM_TITLE' => 'Acumulación Lista',
+  'LBL_SEARCH_FORM_TITLE' => 'Búsqueda Acumulación',
+  'LBL_QTK_LOCAL_QTK_ACUMULACION_1_FROM_QTK_LOCAL_TITLE' => 'Local',
+  'LBL_QTK_NEGOCIO_QTK_ACUMULACION_1_FROM_QTK_NEGOCIO_TITLE' => 'Negocio',
+  'LBL_QTK_CODIGO_CLIENTE_QTK_ACUMULACION_1_FROM_QTK_CODIGO_CLIENTE_TITLE' => 'Vincard',
+  'LBL_HOMEPAGE_TITLE' => 'Mi Acumulaciones',
 );

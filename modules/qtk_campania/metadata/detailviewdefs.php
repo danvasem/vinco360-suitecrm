@@ -39,6 +39,7 @@ array (
           'panelDefault' => 'expanded',
         ),
       ),
+      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
@@ -63,15 +64,12 @@ array (
           ),
           1 => 
           array (
-            'name' => 'fecha_creacion_c',
-            'label' => 'LBL_FECHA_CREACION',
+            'name' => 'date_entered',
+            'customCode' => '{$fields.date_entered.value} {$APP.LBL_BY} {$fields.created_by_name.value}',
+            'label' => 'LBL_DATE_ENTERED',
           ),
         ),
         2 => 
-        array (
-          0 => 'description',
-        ),
-        3 => 
         array (
           0 => 
           array (
@@ -84,6 +82,10 @@ array (
             'label' => 'LBL_FECHA_FIN',
           ),
         ),
+        3 => 
+        array (
+          0 => 'description',
+        ),
         4 => 
         array (
           0 => 
@@ -95,21 +97,6 @@ array (
           array (
             'name' => 'qtk_negocio_qtk_campania_1_name',
             'label' => 'LBL_QTK_NEGOCIO_QTK_CAMPANIA_1_FROM_QTK_NEGOCIO_TITLE',
-          ),
-        ),
-        5 => 
-        array (
-          0 => 
-          array (
-            'name' => 'date_entered',
-            'customCode' => '{$fields.date_entered.value} {$APP.LBL_BY} {$fields.created_by_name.value}',
-            'label' => 'LBL_DATE_ENTERED',
-          ),
-          1 => 
-          array (
-            'name' => 'date_modified',
-            'customCode' => '{$fields.date_modified.value} {$APP.LBL_BY} {$fields.modified_by_name.value}',
-            'label' => 'LBL_DATE_MODIFIED',
           ),
         ),
       ),

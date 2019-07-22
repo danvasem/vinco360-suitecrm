@@ -1,5 +1,5 @@
 <?php
-// created: 2019-06-25 17:41:13
+// created: 2019-07-18 16:21:21
 $searchFields['qtk_afiliacion'] = array (
   'name' => 
   array (
@@ -55,5 +55,68 @@ $searchFields['qtk_afiliacion'] = array (
     'query_type' => 'default',
     'enable_range_search' => true,
     'is_date_field' => true,
+  ),
+  'range_puntos_ganados_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'start_range_puntos_ganados_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'end_range_puntos_ganados_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'range_fecha_afiliacion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'start_range_fecha_afiliacion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'end_range_fecha_afiliacion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'range_valor_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'start_range_valor_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'end_range_valor_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'range_estrellas_ganados_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'start_range_estrellas_ganados_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'end_range_estrellas_ganados_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
   ),
 );

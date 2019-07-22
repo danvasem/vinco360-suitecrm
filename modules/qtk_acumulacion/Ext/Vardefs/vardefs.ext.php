@@ -155,9 +155,11 @@ $dictionary['qtk_acumulacion']['fields']['tipo_evento_c']['labelValue']='Tipo de
 
  
 
- // created: 2019-06-20 15:26:49
+ // created: 2019-07-18 16:28:28
 $dictionary['qtk_acumulacion']['fields']['puntos_ganados_c']['inline_edit']='1';
+$dictionary['qtk_acumulacion']['fields']['puntos_ganados_c']['options']='numeric_range_search_dom';
 $dictionary['qtk_acumulacion']['fields']['puntos_ganados_c']['labelValue']='Puntos ganados:';
+$dictionary['qtk_acumulacion']['fields']['puntos_ganados_c']['enable_range_search']='1';
 
  
 
@@ -172,21 +174,27 @@ $dictionary['qtk_acumulacion']['fields']['qtk_campania_id_c']['inline_edit']=1;
 
  
 
- // created: 2019-06-20 15:20:50
+ // created: 2019-07-18 16:28:14
 $dictionary['qtk_acumulacion']['fields']['valor_c']['inline_edit']='1';
+$dictionary['qtk_acumulacion']['fields']['valor_c']['options']='numeric_range_search_dom';
 $dictionary['qtk_acumulacion']['fields']['valor_c']['labelValue']='Valor:';
+$dictionary['qtk_acumulacion']['fields']['valor_c']['enable_range_search']='1';
 
  
 
- // created: 2019-06-20 15:27:33
+ // created: 2019-07-18 16:28:42
 $dictionary['qtk_acumulacion']['fields']['estrellas_ganados_c']['inline_edit']='1';
+$dictionary['qtk_acumulacion']['fields']['estrellas_ganados_c']['options']='numeric_range_search_dom';
 $dictionary['qtk_acumulacion']['fields']['estrellas_ganados_c']['labelValue']='Estrellas ganadas:';
+$dictionary['qtk_acumulacion']['fields']['estrellas_ganados_c']['enable_range_search']='1';
 
  
 
- // created: 2019-06-20 15:20:07
+ // created: 2019-07-18 16:27:50
 $dictionary['qtk_acumulacion']['fields']['fecha_acumulacion_c']['inline_edit']='1';
+$dictionary['qtk_acumulacion']['fields']['fecha_acumulacion_c']['options']='date_range_search_dom';
 $dictionary['qtk_acumulacion']['fields']['fecha_acumulacion_c']['labelValue']='Fecha de acumulación:';
+$dictionary['qtk_acumulacion']['fields']['fecha_acumulacion_c']['enable_range_search']='1';
 
  
 

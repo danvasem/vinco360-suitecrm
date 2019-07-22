@@ -1,5 +1,5 @@
 <?php
-// created: 2019-07-05 05:21:10
+// created: 2019-07-18 19:11:00
 $mod_strings = array (
   'LBL_NUMERO_UNICO' => 'Número único VINCO:',
   'LBL_TIPO_EVENTO_QTK_TIPO_EVENTO_ID' => '&#039;Tipo de evento:&#039; (relacionado &#039;&#039; ID)',
@@ -8,7 +8,6 @@ $mod_strings = array (
   'LBL_USUARIO_RESPONSABLE_USER_ID' => '&#039;Usuario responsable:&#039; (relacionado &#039;Usuarios&#039; ID)',
   'LBL_USUARIO_RESPONSABLE' => 'Usuario responsable:',
   'LBL_ESTADO' => 'Estado:',
-  'EVENTO_REVERSADO' => 'Evento reversado',
   'LBL_REVERSO_TIPO_EVENTO_QTK_TIPO_EVENTO_ID' => '&#039;Reverso: tipo de evento&#039; (relacionado &#039;&#039; ID)',
   'LBL_REVERSO_TIPO_EVENTO' => 'Reverso: tipo de evento',
   'LBL_REVERSO_VALOR' => 'Reverso: valor de evento',
@@ -17,4 +16,12 @@ $mod_strings = array (
   'LBL_REVERSO_PREMIO_QTK_PREMIO_ID' => '&#039;Reverso: premio&#039; (relacionado &#039;&#039; ID)',
   'LBL_REVERSO_PREMIO' => 'Reverso: premio',
   'LBL_EDITVIEW_PANEL1' => 'Evento reversado',
+  'LNK_NEW_RECORD' => 'Crear Reversos',
+  'LNK_LIST' => 'Vista Reversos',
+  'LNK_IMPORT_QTK_REVERSO' => 'Importar Reversos',
+  'LBL_LIST_FORM_TITLE' => 'Reverso Lista',
+  'LBL_SEARCH_FORM_TITLE' => 'Búsqueda Reverso',
+  'LBL_QTK_LOCAL_QTK_REVERSO_1_FROM_QTK_LOCAL_TITLE' => 'Local',
+  'LBL_QTK_NEGOCIO_QTK_REVERSO_1_FROM_QTK_NEGOCIO_TITLE' => 'Negocio',
+  'LBL_HOMEPAGE_TITLE' => 'Mi Reversos',
 );

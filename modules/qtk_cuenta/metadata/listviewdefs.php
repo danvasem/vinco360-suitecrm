@@ -2,12 +2,30 @@
 $module_name = 'qtk_cuenta';
 $listViewDefs [$module_name] = 
 array (
-  'NUMERO_UNICO_C' => 
+  'NAME' => 
   array (
-    'type' => 'varchar',
+    'width' => '32%',
+    'label' => 'LBL_NAME',
     'default' => true,
-    'label' => 'LBL_NUMERO_UNICO',
-    'width' => '20%',
+    'link' => true,
+  ),
+  'CONTACTS_QTK_CUENTA_1_NAME' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_CONTACTS_QTK_CUENTA_1_FROM_CONTACTS_TITLE',
+    'id' => 'CONTACTS_QTK_CUENTA_1CONTACTS_IDA',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'QTK_NEGOCIO_QTK_CUENTA_1_NAME' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_QTK_NEGOCIO_QTK_CUENTA_1_FROM_QTK_NEGOCIO_TITLE',
+    'id' => 'QTK_NEGOCIO_QTK_CUENTA_1QTK_NEGOCIO_IDA',
+    'width' => '10%',
+    'default' => true,
   ),
   'SALDO_DISPONIBLE_C' => 
   array (
@@ -31,12 +49,26 @@ array (
     'label' => 'LBL_ESTADO',
     'width' => '10%',
   ),
-  'NAME' => 
+  'FECHA_VIGENCIA_C' => 
   array (
-    'width' => '32%',
-    'label' => 'LBL_NAME',
+    'type' => 'datetimecombo',
     'default' => false,
-    'link' => true,
+    'label' => 'LBL_FECHA_VIGENCIA',
+    'width' => '10%',
+  ),
+  'FECHA_EXPIRACION_C' => 
+  array (
+    'type' => 'datetimecombo',
+    'default' => false,
+    'label' => 'LBL_FECHA_EXPIRACION',
+    'width' => '10%',
+  ),
+  'NUMERO_UNICO_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => false,
+    'label' => 'LBL_NUMERO_UNICO',
+    'width' => '20%',
   ),
 );
 ;

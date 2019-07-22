@@ -1,5 +1,5 @@
 <?php
-// created: 2019-06-25 04:07:31
+// created: 2019-07-18 17:00:49
 $searchFields['qtk_partida'] = array (
   'name' => 
   array (
@@ -55,5 +55,101 @@ $searchFields['qtk_partida'] = array (
     'query_type' => 'default',
     'enable_range_search' => true,
     'is_date_field' => true,
+  ),
+  'range_valor_alcanzado_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'start_range_valor_alcanzado_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'end_range_valor_alcanzado_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'range_progreso_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'start_range_progreso_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'end_range_progreso_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'range_valor_cliente_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'start_range_valor_cliente_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'end_range_valor_cliente_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'range_fecha_creacion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'start_range_fecha_creacion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'end_range_fecha_creacion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'range_fecha_fin_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'start_range_fecha_fin_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'end_range_fecha_fin_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'range_repeticion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'start_range_repeticion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'end_range_repeticion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
   ),
 );

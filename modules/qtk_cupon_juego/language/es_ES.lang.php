@@ -1,5 +1,5 @@
 <?php
-// created: 2019-07-06 15:47:50
+// created: 2019-07-18 18:21:13
 $mod_strings = array (
   'LBL_NUMERO_UNICO' => 'Número único VINCO:',
   'LBL_TIPO_EVENTO_QTK_TIPO_EVENTO_ID' => '&#039;Tipo de evento:&#039; (relacionado &#039;&#039; ID)',
@@ -13,5 +13,13 @@ $mod_strings = array (
   'LBL_CODIGO_CLIENTE' => 'Código de cliente para acumulación:',
   'LBL_CUPON_CANJEADO' => 'Cupón canjeado:',
   'LBL_PUNTOS_GANADOS' => 'Puntos ganados',
-  'LBL_ESTRELLAS_GANADOS' => 'estrellas ganados',
+  'LBL_ESTRELLAS_GANADOS' => 'Estrellas ganadas',
+  'LNK_NEW_RECORD' => 'Crear Cupones juego',
+  'LNK_LIST' => 'Vista Cupones juego',
+  'LNK_IMPORT_QTK_CUPON_JUEGO' => 'Importar Cupones juego',
+  'LBL_LIST_FORM_TITLE' => 'Cupón juego Lista',
+  'LBL_SEARCH_FORM_TITLE' => 'Búsqueda Cupón juego',
+  'LBL_QTK_NEGOCIO_QTK_CUPON_JUEGO_1_FROM_QTK_NEGOCIO_TITLE' => 'Negocio',
+  'LBL_QTK_LOCAL_QTK_CUPON_JUEGO_1_FROM_QTK_LOCAL_TITLE' => 'Local',
+  'LBL_HOMEPAGE_TITLE' => 'Mi Cupones juego',
 );

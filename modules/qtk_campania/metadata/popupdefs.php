@@ -6,13 +6,11 @@ $popupMeta = array (
     'whereClauses' => array (
   'name' => 'qtk_campania.name',
   'id_campania_c' => 'qtk_campania_cstm.id_campania_c',
-  'fecha_creacion_c' => 'qtk_campania_cstm.fecha_creacion_c',
   'estado_c' => 'qtk_campania_cstm.estado_c',
 ),
     'searchInputs' => array (
   1 => 'name',
   4 => 'id_campania_c',
-  5 => 'fecha_creacion_c',
   6 => 'estado_c',
 ),
     'searchdefs' => array (
@@ -28,16 +26,46 @@ $popupMeta = array (
     'name' => 'name',
     'width' => '10%',
   ),
-  'fecha_creacion_c' => 
-  array (
-    'type' => 'datetimecombo',
-    'label' => 'LBL_FECHA_CREACION',
-    'width' => '10%',
-    'name' => 'fecha_creacion_c',
-  ),
   'estado_c' => 
   array (
     'type' => 'dynamicenum',
+    'studio' => 'visible',
+    'label' => 'LBL_ESTADO',
+    'width' => '10%',
+    'name' => 'estado_c',
+  ),
+),
+    'listviewdefs' => array (
+  'NAME' => 
+  array (
+    'width' => '32%',
+    'label' => 'LBL_NAME',
+    'default' => true,
+    'link' => true,
+    'name' => 'name',
+  ),
+  'ID_CAMPANIA_C' => 
+  array (
+    'type' => 'int',
+    'default' => true,
+    'label' => 'LBL_ID_CAMPANIA',
+    'width' => '10%',
+    'name' => 'id_campania_c',
+  ),
+  'QTK_NEGOCIO_QTK_CAMPANIA_1_NAME' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_QTK_NEGOCIO_QTK_CAMPANIA_1_FROM_QTK_NEGOCIO_TITLE',
+    'id' => 'QTK_NEGOCIO_QTK_CAMPANIA_1QTK_NEGOCIO_IDA',
+    'width' => '10%',
+    'default' => true,
+    'name' => 'qtk_negocio_qtk_campania_1_name',
+  ),
+  'ESTADO_C' => 
+  array (
+    'type' => 'dynamicenum',
+    'default' => false,
     'studio' => 'visible',
     'label' => 'LBL_ESTADO',
     'width' => '10%',

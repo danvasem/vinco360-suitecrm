@@ -1,5 +1,5 @@
 <?php
-// created: 2019-06-24 22:45:43
+// created: 2019-07-20 00:34:42
 $searchFields['qtk_campania'] = array (
   'name' => 
   array (
@@ -51,6 +51,42 @@ $searchFields['qtk_campania'] = array (
     'is_date_field' => true,
   ),
   'end_range_date_modified' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'range_fecha_inicio_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'start_range_fecha_inicio_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'end_range_fecha_inicio_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'range_fecha_fin_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'start_range_fecha_fin_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'end_range_fecha_fin_c' => 
   array (
     'query_type' => 'default',
     'enable_range_search' => true,

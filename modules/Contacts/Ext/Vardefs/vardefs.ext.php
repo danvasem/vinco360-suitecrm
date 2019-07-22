@@ -240,9 +240,11 @@ $dictionary['Contact']['fields']['jjwg_maps_lng_c']['inline_edit']=1;
 
  
 
- // created: 2019-06-19 03:25:36
+ // created: 2019-07-18 15:25:38
 $dictionary['Contact']['fields']['fecha_creacion_vinco_c']['inline_edit']='1';
+$dictionary['Contact']['fields']['fecha_creacion_vinco_c']['options']='date_range_search_dom';
 $dictionary['Contact']['fields']['fecha_creacion_vinco_c']['labelValue']='Fecha de creación VINCO:';
+$dictionary['Contact']['fields']['fecha_creacion_vinco_c']['enable_range_search']='1';
 
  
 
@@ -252,12 +254,9 @@ $dictionary['Contact']['fields']['sexo_c']['labelValue']='Sexo';
 
  
 
- // created: 2019-06-18 20:57:07
-$dictionary['Contact']['fields']['birthdate']['inline_edit']=true;
-$dictionary['Contact']['fields']['birthdate']['help']='Fecha de nacimiento';
-$dictionary['Contact']['fields']['birthdate']['comments']='Fecha de nacimiento';
-$dictionary['Contact']['fields']['birthdate']['merge_filter']='disabled';
-$dictionary['Contact']['fields']['birthdate']['enable_range_search']=false;
+ // created: 2019-07-18 15:24:32
+$dictionary['Contact']['fields']['birthdate']['options']='date_range_search_dom';
+$dictionary['Contact']['fields']['birthdate']['enable_range_search']='1';
 
  
 

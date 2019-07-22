@@ -33,13 +33,6 @@ array (
     'label' => 'LBL_ESTADO',
     'width' => '10%',
   ),
-  'FECHA_CREACION_C' => 
-  array (
-    'type' => 'datetimecombo',
-    'default' => false,
-    'label' => 'LBL_FECHA_CREACION',
-    'width' => '25%',
-  ),
 );
 ;
 ?>

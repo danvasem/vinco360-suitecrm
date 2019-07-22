@@ -121,9 +121,11 @@ $dictionary['qtk_cupon_juego']['fields']['tipo_evento_c']['labelValue']='Tipo de
 
  
 
- // created: 2019-07-06 15:47:19
+ // created: 2019-07-18 18:21:27
 $dictionary['qtk_cupon_juego']['fields']['puntos_ganados_c']['inline_edit']='1';
+$dictionary['qtk_cupon_juego']['fields']['puntos_ganados_c']['options']='numeric_range_search_dom';
 $dictionary['qtk_cupon_juego']['fields']['puntos_ganados_c']['labelValue']='Puntos ganados';
+$dictionary['qtk_cupon_juego']['fields']['puntos_ganados_c']['enable_range_search']='1';
 
  
 
@@ -133,21 +135,27 @@ $dictionary['qtk_cupon_juego']['fields']['codigo_cliente_c']['labelValue']='Cód
 
  
 
- // created: 2019-06-21 04:33:57
+ // created: 2019-07-18 18:20:51
 $dictionary['qtk_cupon_juego']['fields']['valor_c']['inline_edit']='1';
+$dictionary['qtk_cupon_juego']['fields']['valor_c']['options']='numeric_range_search_dom';
 $dictionary['qtk_cupon_juego']['fields']['valor_c']['labelValue']='Valor:';
+$dictionary['qtk_cupon_juego']['fields']['valor_c']['enable_range_search']='1';
 
  
 
- // created: 2019-07-06 15:47:50
+ // created: 2019-07-18 18:21:13
 $dictionary['qtk_cupon_juego']['fields']['estrellas_ganados_c']['inline_edit']='1';
-$dictionary['qtk_cupon_juego']['fields']['estrellas_ganados_c']['labelValue']='estrellas ganados';
+$dictionary['qtk_cupon_juego']['fields']['estrellas_ganados_c']['options']='numeric_range_search_dom';
+$dictionary['qtk_cupon_juego']['fields']['estrellas_ganados_c']['labelValue']='Estrellas ganadas';
+$dictionary['qtk_cupon_juego']['fields']['estrellas_ganados_c']['enable_range_search']='1';
 
  
 
- // created: 2019-06-21 04:33:04
+ // created: 2019-07-18 18:20:31
 $dictionary['qtk_cupon_juego']['fields']['fecha_canje_cupon_c']['inline_edit']='1';
+$dictionary['qtk_cupon_juego']['fields']['fecha_canje_cupon_c']['options']='date_range_search_dom';
 $dictionary['qtk_cupon_juego']['fields']['fecha_canje_cupon_c']['labelValue']='Fecha de canje del cupón:';
+$dictionary['qtk_cupon_juego']['fields']['fecha_canje_cupon_c']['enable_range_search']='1';
 
  
 

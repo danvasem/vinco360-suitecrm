@@ -2,19 +2,39 @@
 $module_name = 'qtk_codigo_cliente';
 $listViewDefs [$module_name] = 
 array (
-  'CODIGO_C' => 
+  'NAME' => 
   array (
-    'type' => 'varchar',
+    'width' => '10%',
+    'label' => 'LBL_NAME',
     'default' => true,
-    'label' => 'LBL_CODIGO',
-    'width' => '20%',
+    'link' => true,
   ),
-  'FECHA_CREACION_C' => 
+  'CONTACTS_QTK_CODIGO_CLIENTE_1_NAME' => 
   array (
-    'type' => 'datetimecombo',
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_CONTACTS_QTK_CODIGO_CLIENTE_1_FROM_CONTACTS_TITLE',
+    'id' => 'CONTACTS_QTK_CODIGO_CLIENTE_1CONTACTS_IDA',
+    'width' => '10%',
     'default' => true,
-    'label' => 'LBL_FECHA_CREACION',
-    'width' => '20%',
+  ),
+  'QTK_NEGOCIO_QTK_CODIGO_CLIENTE_1_NAME' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_QTK_NEGOCIO_QTK_CODIGO_CLIENTE_1_FROM_QTK_NEGOCIO_TITLE',
+    'id' => 'QTK_NEGOCIO_QTK_CODIGO_CLIENTE_1QTK_NEGOCIO_IDA',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'QTK_LOCAL_QTK_CODIGO_CLIENTE_1_NAME' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_QTK_LOCAL_QTK_CODIGO_CLIENTE_1_FROM_QTK_LOCAL_TITLE',
+    'id' => 'QTK_LOCAL_QTK_CODIGO_CLIENTE_1QTK_LOCAL_IDA',
+    'width' => '10%',
+    'default' => true,
   ),
   'ESTADO_C' => 
   array (
@@ -24,12 +44,61 @@ array (
     'label' => 'LBL_ESTADO',
     'width' => '10%',
   ),
-  'NAME' => 
+  'FECHA_ACTIVACION_C' => 
   array (
-    'width' => '10%',
-    'label' => 'LBL_NAME',
+    'type' => 'datetimecombo',
     'default' => true,
+    'label' => 'LBL_FECHA_ACTIVACION',
+    'width' => '10%',
+  ),
+  'QTK_NEGOCIO_QTK_CODIGO_CLIENTE_2_NAME' => 
+  array (
+    'type' => 'relate',
     'link' => true,
+    'label' => 'LBL_QTK_NEGOCIO_QTK_CODIGO_CLIENTE_2_FROM_QTK_NEGOCIO_TITLE',
+    'id' => 'QTK_NEGOCIO_QTK_CODIGO_CLIENTE_2QTK_NEGOCIO_IDA',
+    'width' => '10%',
+    'default' => false,
+  ),
+  'QTK_LOCAL_QTK_CODIGO_CLIENTE_2_NAME' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_QTK_LOCAL_QTK_CODIGO_CLIENTE_2_FROM_QTK_LOCAL_TITLE',
+    'id' => 'QTK_LOCAL_QTK_CODIGO_CLIENTE_2QTK_LOCAL_IDA',
+    'width' => '10%',
+    'default' => false,
+  ),
+  'FECHA_ENTREGA_C' => 
+  array (
+    'type' => 'datetimecombo',
+    'default' => false,
+    'label' => 'LBL_FECHA_ENTREGA',
+    'width' => '10%',
+  ),
+  'FECHA_CREACION_C' => 
+  array (
+    'type' => 'datetimecombo',
+    'default' => false,
+    'label' => 'LBL_FECHA_CREACION',
+    'width' => '20%',
+  ),
+  'CLIENTE_ANTERIOR_C' => 
+  array (
+    'type' => 'relate',
+    'default' => false,
+    'studio' => 'visible',
+    'label' => 'LBL_CLIENTE_ANTERIOR',
+    'id' => 'CONTACT_ID_C',
+    'link' => true,
+    'width' => '10%',
+  ),
+  'CODIGO_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => false,
+    'label' => 'LBL_CODIGO',
+    'width' => '20%',
   ),
 );
 ;

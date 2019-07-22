@@ -1,5 +1,5 @@
 <?php
-// created: 2019-06-23 00:44:02
+// created: 2019-07-17 22:59:34
 $mod_strings = array (
   'LBL_NAME' => 'Nombre:',
   'LBL_NOMBRE_UNICO' => 'Nombre único VINCO:',
@@ -9,4 +9,18 @@ $mod_strings = array (
   'LBL_LATITUD' => 'Latitud:',
   'LBL_LONGITUD' => 'Longitud:',
   'LBL_DETAILVIEW_PANEL1' => 'Otros',
+  'LNK_NEW_RECORD' => 'Crear Locales',
+  'LNK_LIST' => 'Vista Locales',
+  'LNK_IMPORT_QTK_LOCAL' => 'Importar Locales',
+  'LBL_LIST_FORM_TITLE' => 'Local Lista',
+  'LBL_SEARCH_FORM_TITLE' => 'Búsqueda Local',
+  'LBL_QTK_NEGOCIO_QTK_LOCAL_1_FROM_QTK_NEGOCIO_TITLE' => 'Negocio',
+  'LBL_QTK_LOCAL_QTK_REVERSO_1_FROM_QTK_REVERSO_TITLE' => 'Reversoss',
+  'LBL_QTK_LOCAL_QTK_REDENCION_1_FROM_QTK_REDENCION_TITLE' => 'Local',
+  'LBL_QTK_LOCAL_QTK_ACUMULACION_1_FROM_QTK_ACUMULACION_TITLE' => 'Local',
+  'LBL_QTK_LOCAL_QTK_CODIGO_CLIENTE_2_FROM_QTK_CODIGO_CLIENTE_TITLE' => 'Local',
+  'LBL_QTK_LOCAL_QTK_CODIGO_CLIENTE_1_FROM_QTK_CODIGO_CLIENTE_TITLE' => 'Local activación',
+  'LBL_QTK_LOCAL_QTK_CUPON_JUEGO_1_FROM_QTK_CUPON_JUEGO_TITLE' => 'Cupones juego',
+  'LBL_QTK_LOCAL_QTK_AFILIACION_1_FROM_QTK_AFILIACION_TITLE' => 'Local',
+  'LBL_HOMEPAGE_TITLE' => 'Mi Locales',
 );

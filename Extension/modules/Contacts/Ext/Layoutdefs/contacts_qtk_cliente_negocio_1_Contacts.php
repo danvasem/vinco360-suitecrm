@@ -1,11 +1,11 @@
 <?php
  // created: 2019-06-22 05:32:52
 $layout_defs["Contacts"]["subpanel_setup"]['contacts_qtk_cliente_negocio_1'] = array (
-  'order' => 100,
+  'order' => 200,
   'module' => 'qtk_cliente_negocio',
   'subpanel_name' => 'default',
-  'sort_order' => 'asc',
-  'sort_by' => 'id',
+  'sort_order' => 'desc',
+  'sort_by' => 'fecha_creacion_c',
   'title_key' => 'LBL_CONTACTS_QTK_CLIENTE_NEGOCIO_1_FROM_QTK_CLIENTE_NEGOCIO_TITLE',
   'get_subpanel_data' => 'contacts_qtk_cliente_negocio_1',
   'top_buttons' => 

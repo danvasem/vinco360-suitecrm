@@ -1,5 +1,5 @@
 <?php
-// created: 2019-06-25 16:49:58
+// created: 2019-07-18 16:46:48
 $searchFields['qtk_redencion'] = array (
   'name' => 
   array (
@@ -55,5 +55,53 @@ $searchFields['qtk_redencion'] = array (
     'query_type' => 'default',
     'enable_range_search' => true,
     'is_date_field' => true,
+  ),
+  'range_fecha_redencion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'start_range_fecha_redencion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'end_range_fecha_redencion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'range_valor_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'start_range_valor_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'end_range_valor_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'range_monto_referencial_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'start_range_monto_referencial_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'end_range_monto_referencial_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
   ),
 );

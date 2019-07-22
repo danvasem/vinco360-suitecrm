@@ -1,5 +1,5 @@
 <?php
-// created: 2019-06-23 01:08:00
+// created: 2019-07-18 18:50:13
 $searchFields['qtk_codigo_cliente'] = array (
   'name' => 
   array (
@@ -51,6 +51,78 @@ $searchFields['qtk_codigo_cliente'] = array (
     'is_date_field' => true,
   ),
   'end_range_date_modified' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'range_fecha_entrega_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'start_range_fecha_entrega_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'end_range_fecha_entrega_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'range_fecha_nuevo_cliente_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'start_range_fecha_nuevo_cliente_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'end_range_fecha_nuevo_cliente_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'range_fecha_creacion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'start_range_fecha_creacion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'end_range_fecha_creacion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'range_fecha_activacion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'start_range_fecha_activacion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'end_range_fecha_activacion_c' => 
   array (
     'query_type' => 'default',
     'enable_range_search' => true,

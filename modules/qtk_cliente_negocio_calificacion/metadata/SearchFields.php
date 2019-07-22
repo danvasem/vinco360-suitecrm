@@ -1,5 +1,5 @@
 <?php
-// created: 2019-06-25 21:23:09
+// created: 2019-07-18 18:30:45
 $searchFields['qtk_cliente_negocio_calificacion'] = array (
   'name' => 
   array (
@@ -55,5 +55,38 @@ $searchFields['qtk_cliente_negocio_calificacion'] = array (
     'query_type' => 'default',
     'enable_range_search' => true,
     'is_date_field' => true,
+  ),
+  'range_fecha_calificacion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'start_range_fecha_calificacion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'end_range_fecha_calificacion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'range_calificacion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'start_range_calificacion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'end_range_calificacion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
   ),
 );

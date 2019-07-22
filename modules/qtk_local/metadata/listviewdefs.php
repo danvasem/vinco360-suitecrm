@@ -16,6 +16,13 @@ array (
     'label' => 'LBL_ID_LOCAL',
     'width' => '10%',
   ),
+  'NOMBRE_UNICO_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_NOMBRE_UNICO',
+    'width' => '10%',
+  ),
   'QTK_NEGOCIO_QTK_LOCAL_1_NAME' => 
   array (
     'type' => 'relate',
@@ -25,11 +32,11 @@ array (
     'width' => '10%',
     'default' => true,
   ),
-  'NOMBRE_UNICO_C' => 
+  'LOCAL_FISICO_C' => 
   array (
-    'type' => 'varchar',
-    'default' => true,
-    'label' => 'LBL_NOMBRE_UNICO',
+    'type' => 'bool',
+    'default' => false,
+    'label' => 'LBL_LOCAL_FISICO',
     'width' => '10%',
   ),
   'DIRECCION_C' => 
@@ -39,11 +46,18 @@ array (
     'label' => 'LBL_DIRECCION',
     'width' => '10%',
   ),
-  'LOCAL_FISICO_C' => 
+  'LATITUD_C' => 
   array (
-    'type' => 'bool',
+    'type' => 'float',
     'default' => false,
-    'label' => 'LBL_LOCAL_FISICO',
+    'label' => 'LBL_LATITUD',
+    'width' => '10%',
+  ),
+  'LONGITUD_C' => 
+  array (
+    'type' => 'float',
+    'default' => false,
+    'label' => 'LBL_LONGITUD',
     'width' => '10%',
   ),
 );

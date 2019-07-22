@@ -1,11 +1,11 @@
 <?php
  // created: 2019-06-22 05:18:56
 $layout_defs["Contacts"]["subpanel_setup"]['contacts_qtk_afiliacion_1'] = array (
-  'order' => 100,
+  'order' => 220,
   'module' => 'qtk_afiliacion',
   'subpanel_name' => 'default',
-  'sort_order' => 'asc',
-  'sort_by' => 'id',
+  'sort_order' => 'desc',
+  'sort_by' => 'fecha_afiliacion_c',
   'title_key' => 'LBL_CONTACTS_QTK_AFILIACION_1_FROM_QTK_AFILIACION_TITLE',
   'get_subpanel_data' => 'contacts_qtk_afiliacion_1',
   'top_buttons' => 

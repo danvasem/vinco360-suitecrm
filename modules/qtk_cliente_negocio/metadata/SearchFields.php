@@ -1,5 +1,5 @@
 <?php
-// created: 2019-06-21 04:39:37
+// created: 2019-07-18 19:02:46
 $searchFields['qtk_cliente_negocio'] = array (
   'name' => 
   array (
@@ -51,6 +51,24 @@ $searchFields['qtk_cliente_negocio'] = array (
     'is_date_field' => true,
   ),
   'end_range_date_modified' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'range_fecha_creacion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'start_range_fecha_creacion_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'end_range_fecha_creacion_c' => 
   array (
     'query_type' => 'default',
     'enable_range_search' => true,

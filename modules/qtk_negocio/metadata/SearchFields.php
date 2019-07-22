@@ -1,5 +1,5 @@
 <?php
-// created: 2019-06-22 19:46:48
+// created: 2019-07-18 19:19:46
 $searchFields['qtk_negocio'] = array (
   'name' => 
   array (

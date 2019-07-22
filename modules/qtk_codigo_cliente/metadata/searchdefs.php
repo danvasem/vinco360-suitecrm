@@ -6,6 +6,36 @@ array (
   array (
     'basic_search' => 
     array (
+      'contacts_qtk_codigo_cliente_1_name' => 
+      array (
+        'type' => 'relate',
+        'link' => true,
+        'label' => 'LBL_CONTACTS_QTK_CODIGO_CLIENTE_1_FROM_CONTACTS_TITLE',
+        'id' => 'CONTACTS_QTK_CODIGO_CLIENTE_1CONTACTS_IDA',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'contacts_qtk_codigo_cliente_1_name',
+      ),
+      'qtk_negocio_qtk_codigo_cliente_1_name' => 
+      array (
+        'type' => 'relate',
+        'link' => true,
+        'label' => 'LBL_QTK_NEGOCIO_QTK_CODIGO_CLIENTE_1_FROM_QTK_NEGOCIO_TITLE',
+        'id' => 'QTK_NEGOCIO_QTK_CODIGO_CLIENTE_1QTK_NEGOCIO_IDA',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'qtk_negocio_qtk_codigo_cliente_1_name',
+      ),
+      'qtk_local_qtk_codigo_cliente_1_name' => 
+      array (
+        'type' => 'relate',
+        'link' => true,
+        'label' => 'LBL_QTK_LOCAL_QTK_CODIGO_CLIENTE_1_FROM_QTK_LOCAL_TITLE',
+        'id' => 'QTK_LOCAL_QTK_CODIGO_CLIENTE_1QTK_LOCAL_IDA',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'qtk_local_qtk_codigo_cliente_1_name',
+      ),
       'codigo_c' => 
       array (
         'type' => 'varchar',
@@ -17,6 +47,98 @@ array (
     ),
     'advanced_search' => 
     array (
+      'name' => 
+      array (
+        'type' => 'name',
+        'link' => true,
+        'label' => 'LBL_NAME',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'name',
+      ),
+      'contacts_qtk_codigo_cliente_1_name' => 
+      array (
+        'type' => 'relate',
+        'link' => true,
+        'label' => 'LBL_CONTACTS_QTK_CODIGO_CLIENTE_1_FROM_CONTACTS_TITLE',
+        'width' => '10%',
+        'default' => true,
+        'id' => 'CONTACTS_QTK_CODIGO_CLIENTE_1CONTACTS_IDA',
+        'name' => 'contacts_qtk_codigo_cliente_1_name',
+      ),
+      'fecha_activacion_c' => 
+      array (
+        'type' => 'datetimecombo',
+        'default' => true,
+        'label' => 'LBL_FECHA_ACTIVACION',
+        'width' => '10%',
+        'name' => 'fecha_activacion_c',
+      ),
+      'estado_c' => 
+      array (
+        'type' => 'dynamicenum',
+        'default' => true,
+        'studio' => 'visible',
+        'label' => 'LBL_ESTADO',
+        'width' => '10%',
+        'name' => 'estado_c',
+      ),
+      'qtk_negocio_qtk_codigo_cliente_1_name' => 
+      array (
+        'type' => 'relate',
+        'link' => true,
+        'label' => 'LBL_QTK_NEGOCIO_QTK_CODIGO_CLIENTE_1_FROM_QTK_NEGOCIO_TITLE',
+        'width' => '10%',
+        'default' => true,
+        'id' => 'QTK_NEGOCIO_QTK_CODIGO_CLIENTE_1QTK_NEGOCIO_IDA',
+        'name' => 'qtk_negocio_qtk_codigo_cliente_1_name',
+      ),
+      'qtk_local_qtk_codigo_cliente_1_name' => 
+      array (
+        'type' => 'relate',
+        'link' => true,
+        'label' => 'LBL_QTK_LOCAL_QTK_CODIGO_CLIENTE_1_FROM_QTK_LOCAL_TITLE',
+        'width' => '10%',
+        'default' => true,
+        'id' => 'QTK_LOCAL_QTK_CODIGO_CLIENTE_1QTK_LOCAL_IDA',
+        'name' => 'qtk_local_qtk_codigo_cliente_1_name',
+      ),
+      'qtk_negocio_qtk_codigo_cliente_2_name' => 
+      array (
+        'type' => 'relate',
+        'link' => true,
+        'label' => 'LBL_QTK_NEGOCIO_QTK_CODIGO_CLIENTE_2_FROM_QTK_NEGOCIO_TITLE',
+        'id' => 'QTK_NEGOCIO_QTK_CODIGO_CLIENTE_2QTK_NEGOCIO_IDA',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'qtk_negocio_qtk_codigo_cliente_2_name',
+      ),
+      'qtk_local_qtk_codigo_cliente_2_name' => 
+      array (
+        'type' => 'relate',
+        'link' => true,
+        'label' => 'LBL_QTK_LOCAL_QTK_CODIGO_CLIENTE_2_FROM_QTK_LOCAL_TITLE',
+        'id' => 'QTK_LOCAL_QTK_CODIGO_CLIENTE_2QTK_LOCAL_IDA',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'qtk_local_qtk_codigo_cliente_2_name',
+      ),
+      'fecha_entrega_c' => 
+      array (
+        'type' => 'datetimecombo',
+        'default' => true,
+        'label' => 'LBL_FECHA_ENTREGA',
+        'width' => '10%',
+        'name' => 'fecha_entrega_c',
+      ),
+      'fecha_creacion_c' => 
+      array (
+        'type' => 'datetimecombo',
+        'default' => true,
+        'label' => 'LBL_FECHA_CREACION',
+        'width' => '10%',
+        'name' => 'fecha_creacion_c',
+      ),
       'codigo_c' => 
       array (
         'type' => 'varchar',

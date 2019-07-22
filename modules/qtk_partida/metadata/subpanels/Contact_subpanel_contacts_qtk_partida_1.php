@@ -79,3 +79,5 @@ $subpanel_layout['list_fields'] = array (
     'default' => true,
   ),
 );
+
+$subpanel_layout['where'] = "estado_c='A'";

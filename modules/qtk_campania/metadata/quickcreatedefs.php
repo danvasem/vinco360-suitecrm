@@ -51,11 +51,7 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_ESTADO',
           ),
-          1 => 
-          array (
-            'name' => 'fecha_creacion_c',
-            'label' => 'LBL_FECHA_CREACION',
-          ),
+          1 => '',
         ),
         2 => 
         array (

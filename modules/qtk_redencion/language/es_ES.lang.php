@@ -1,5 +1,5 @@
 <?php
-// created: 2019-06-22 04:11:37
+// created: 2019-07-18 15:42:42
 $mod_strings = array (
   'LBL_NUMERO_UNICO' => 'Número único VINCO:',
   'LBL_TIPO_EVENTO_QTK_TIPO_EVENTO_ID' => '&#039;Tipo de evento:&#039; (relacionado &#039;&#039; ID)',
@@ -12,6 +12,16 @@ $mod_strings = array (
   'LBL_TIPO_CODIGO_CLIENTE' => 'Tipo de código para redención:',
   'LBL_MONTO_REFERENCIAL' => 'Monto referencial:',
   'LBL_CUENTA_QTK_CUENTA_ID' => '&#039;Cuenta:&#039; (relacionado &#039;&#039; ID)',
-  'LBL_CUENTA' => 'Cuenta:',
+  'LBL_CUENTA' => 'Cuenta Vinco:',
   'LBL_CODIGO_CLIENTE' => 'Código de cliente para redención:',
+  'LNK_NEW_RECORD' => 'Crear Redenciones',
+  'LNK_LIST' => 'Vista Redenciones',
+  'LNK_IMPORT_QTK_REDENCION' => 'Importar Redenciones',
+  'LBL_LIST_FORM_TITLE' => 'Redención Lista',
+  'LBL_SEARCH_FORM_TITLE' => 'Búsqueda Redención',
+  'LBL_QTK_CODIGO_CLIENTE_QTK_REDENCION_1_FROM_QTK_CODIGO_CLIENTE_TITLE' => 'Vincard',
+  'LBL_QTK_LOCAL_QTK_REDENCION_1_FROM_QTK_LOCAL_TITLE' => 'Local',
+  'LBL_QTK_PREMIO_QTK_REDENCION_1_FROM_QTK_PREMIO_TITLE' => 'Premio',
+  'LBL_QTK_NEGOCIO_QTK_REDENCION_1_FROM_QTK_NEGOCIO_TITLE' => 'Negocio',
+  'LBL_HOMEPAGE_TITLE' => 'Mi Redenciones',
 );

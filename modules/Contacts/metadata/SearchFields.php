@@ -1,5 +1,5 @@
 <?php
-// created: 2019-06-22 19:39:57
+// created: 2019-07-18 15:25:38
 $searchFields['Contacts'] = array (
   'first_name' => 
   array (
@@ -213,5 +213,41 @@ $searchFields['Contacts'] = array (
   'email1' => 
   array (
     'query_type' => 'default',
+  ),
+  'range_birthdate' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'start_range_birthdate' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'end_range_birthdate' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'range_fecha_creacion_vinco_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'start_range_fecha_creacion_vinco_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
+  ),
+  'end_range_fecha_creacion_vinco_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+    'is_date_field' => true,
   ),
 );

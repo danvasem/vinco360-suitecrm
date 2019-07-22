@@ -29,6 +29,7 @@ array (
           'panelDefault' => 'expanded',
         ),
       ),
+      'syncDetailEditViews' => true,
     ),
     'panels' => 
     array (
@@ -53,8 +54,9 @@ array (
           ),
           1 => 
           array (
-            'name' => 'fecha_creacion_c',
-            'label' => 'LBL_FECHA_CREACION',
+            'name' => 'date_entered',
+            'comment' => 'Date record created',
+            'label' => 'LBL_DATE_ENTERED',
           ),
         ),
         2 => 

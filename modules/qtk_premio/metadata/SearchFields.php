@@ -1,5 +1,5 @@
 <?php
-// created: 2019-06-24 04:36:00
+// created: 2019-07-20 00:38:07
 $searchFields['qtk_premio'] = array (
   'name' => 
   array (
@@ -55,5 +55,20 @@ $searchFields['qtk_premio'] = array (
     'query_type' => 'default',
     'enable_range_search' => true,
     'is_date_field' => true,
+  ),
+  'range_valor_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'start_range_valor_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
+  ),
+  'end_range_valor_c' => 
+  array (
+    'query_type' => 'default',
+    'enable_range_search' => true,
   ),
 );

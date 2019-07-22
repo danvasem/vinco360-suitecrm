@@ -81,15 +81,19 @@ $dictionary['qtk_cuenta']['fields']['negocio_c']['labelValue']='Negocio:';
 
  
 
- // created: 2019-06-20 14:26:17
+ // created: 2019-07-20 00:42:19
 $dictionary['qtk_cuenta']['fields']['saldo_contable_c']['inline_edit']='1';
+$dictionary['qtk_cuenta']['fields']['saldo_contable_c']['options']='numeric_range_search_dom';
 $dictionary['qtk_cuenta']['fields']['saldo_contable_c']['labelValue']='Saldo contable:';
+$dictionary['qtk_cuenta']['fields']['saldo_contable_c']['enable_range_search']='1';
 
  
 
- // created: 2019-06-20 14:24:02
+ // created: 2019-07-18 15:45:34
 $dictionary['qtk_cuenta']['fields']['saldo_disponible_c']['inline_edit']='1';
+$dictionary['qtk_cuenta']['fields']['saldo_disponible_c']['options']='numeric_range_search_dom';
 $dictionary['qtk_cuenta']['fields']['saldo_disponible_c']['labelValue']='Saldo disponible:';
+$dictionary['qtk_cuenta']['fields']['saldo_disponible_c']['enable_range_search']='1';
 
  
 
@@ -98,9 +102,11 @@ $dictionary['qtk_cuenta']['fields']['qtk_negocio_id_c']['inline_edit']=1;
 
  
 
- // created: 2019-06-20 14:25:38
+ // created: 2019-07-20 00:42:34
 $dictionary['qtk_cuenta']['fields']['saldo_disponible_base_c']['inline_edit']='1';
+$dictionary['qtk_cuenta']['fields']['saldo_disponible_base_c']['options']='numeric_range_search_dom';
 $dictionary['qtk_cuenta']['fields']['saldo_disponible_base_c']['labelValue']='Saldo disponible (base):';
+$dictionary['qtk_cuenta']['fields']['saldo_disponible_base_c']['enable_range_search']='1';
 
  
 
@@ -110,15 +116,19 @@ $dictionary['qtk_cuenta']['fields']['cliente_c']['labelValue']='Cliente:';
 
  
 
- // created: 2019-06-20 14:28:53
+ // created: 2019-07-20 00:41:51
 $dictionary['qtk_cuenta']['fields']['fecha_vigencia_c']['inline_edit']='1';
+$dictionary['qtk_cuenta']['fields']['fecha_vigencia_c']['options']='date_range_search_dom';
 $dictionary['qtk_cuenta']['fields']['fecha_vigencia_c']['labelValue']='Fecha de vigencia:';
+$dictionary['qtk_cuenta']['fields']['fecha_vigencia_c']['enable_range_search']='1';
 
  
 
- // created: 2019-06-20 14:28:14
+ // created: 2019-07-18 15:50:35
 $dictionary['qtk_cuenta']['fields']['fecha_apertura_c']['inline_edit']='1';
+$dictionary['qtk_cuenta']['fields']['fecha_apertura_c']['options']='date_range_search_dom';
 $dictionary['qtk_cuenta']['fields']['fecha_apertura_c']['labelValue']='Fecha de apertura:';
+$dictionary['qtk_cuenta']['fields']['fecha_apertura_c']['enable_range_search']='1';
 
  
 
@@ -133,9 +143,11 @@ $dictionary['qtk_cuenta']['fields']['estado_c']['labelValue']='Estado:';
 
  
 
- // created: 2019-06-20 14:29:43
+ // created: 2019-07-20 00:42:07
 $dictionary['qtk_cuenta']['fields']['fecha_expiracion_c']['inline_edit']='1';
+$dictionary['qtk_cuenta']['fields']['fecha_expiracion_c']['options']='date_range_search_dom';
 $dictionary['qtk_cuenta']['fields']['fecha_expiracion_c']['labelValue']='Fecha de expiración:';
+$dictionary['qtk_cuenta']['fields']['fecha_expiracion_c']['enable_range_search']='1';
 
  
 
@@ -151,9 +163,11 @@ $dictionary['qtk_cuenta']['fields']['id_cuenta_c']['labelValue']='Id de cuenta V
 
  
 
- // created: 2019-06-25 03:25:28
+ // created: 2019-07-20 00:42:47
 $dictionary['qtk_cuenta']['fields']['saldo_contable_base_c']['inline_edit']='1';
+$dictionary['qtk_cuenta']['fields']['saldo_contable_base_c']['options']='numeric_range_search_dom';
 $dictionary['qtk_cuenta']['fields']['saldo_contable_base_c']['labelValue']='Saldo contable (base)';
+$dictionary['qtk_cuenta']['fields']['saldo_contable_base_c']['enable_range_search']='1';
 
  
 ?>

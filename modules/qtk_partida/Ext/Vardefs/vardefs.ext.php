@@ -57,9 +57,11 @@ $dictionary['qtk_partida']['fields']['qtk_negocio_id_c']['inline_edit']=1;
 
  
 
- // created: 2019-06-20 15:10:56
+ // created: 2019-07-18 16:54:41
 $dictionary['qtk_partida']['fields']['repeticion_c']['inline_edit']='';
+$dictionary['qtk_partida']['fields']['repeticion_c']['options']='numeric_range_search_dom';
 $dictionary['qtk_partida']['fields']['repeticion_c']['labelValue']='Repetición:';
+$dictionary['qtk_partida']['fields']['repeticion_c']['enable_range_search']='1';
 
  
 
@@ -69,15 +71,19 @@ $dictionary['qtk_partida']['fields']['cliente_c']['labelValue']='Cliente';
 
  
 
- // created: 2019-06-20 15:06:40
+ // created: 2019-07-18 16:53:41
 $dictionary['qtk_partida']['fields']['progreso_c']['inline_edit']='1';
+$dictionary['qtk_partida']['fields']['progreso_c']['options']='numeric_range_search_dom';
 $dictionary['qtk_partida']['fields']['progreso_c']['labelValue']='Progreso:';
+$dictionary['qtk_partida']['fields']['progreso_c']['enable_range_search']='1';
 
  
 
- // created: 2019-06-20 15:08:55
+ // created: 2019-07-18 16:54:26
 $dictionary['qtk_partida']['fields']['fecha_fin_c']['inline_edit']='1';
+$dictionary['qtk_partida']['fields']['fecha_fin_c']['options']='date_range_search_dom';
 $dictionary['qtk_partida']['fields']['fecha_fin_c']['labelValue']='Fecha fin:';
+$dictionary['qtk_partida']['fields']['fecha_fin_c']['enable_range_search']='1';
 
  
 
@@ -98,21 +104,27 @@ $dictionary['qtk_partida']['fields']['estado_c']['labelValue']='Estado:';
 
  
 
- // created: 2019-06-20 15:03:03
+ // created: 2019-07-18 16:53:22
 $dictionary['qtk_partida']['fields']['valor_alcanzado_c']['inline_edit']='1';
+$dictionary['qtk_partida']['fields']['valor_alcanzado_c']['options']='numeric_range_search_dom';
 $dictionary['qtk_partida']['fields']['valor_alcanzado_c']['labelValue']='Valor alcanzado:';
+$dictionary['qtk_partida']['fields']['valor_alcanzado_c']['enable_range_search']='1';
 
  
 
- // created: 2019-06-20 15:08:22
+ // created: 2019-07-18 16:54:11
 $dictionary['qtk_partida']['fields']['fecha_creacion_c']['inline_edit']='1';
+$dictionary['qtk_partida']['fields']['fecha_creacion_c']['options']='date_range_search_dom';
 $dictionary['qtk_partida']['fields']['fecha_creacion_c']['labelValue']='Fecha de creación:';
+$dictionary['qtk_partida']['fields']['fecha_creacion_c']['enable_range_search']='1';
 
  
 
- // created: 2019-06-20 15:07:43
+ // created: 2019-07-18 16:53:54
 $dictionary['qtk_partida']['fields']['valor_cliente_c']['inline_edit']='1';
+$dictionary['qtk_partida']['fields']['valor_cliente_c']['options']='numeric_range_search_dom';
 $dictionary['qtk_partida']['fields']['valor_cliente_c']['labelValue']='Valor cliente:';
+$dictionary['qtk_partida']['fields']['valor_cliente_c']['enable_range_search']='1';
 
  
 

@@ -200,15 +200,19 @@ $dictionary['qtk_redencion']['fields']['codigo_cliente_c']['labelValue']='Códig
 
  
 
- // created: 2019-06-22 04:10:23
+ // created: 2019-07-18 16:42:59
 $dictionary['qtk_redencion']['fields']['monto_referencial_c']['inline_edit']='1';
+$dictionary['qtk_redencion']['fields']['monto_referencial_c']['options']='numeric_range_search_dom';
 $dictionary['qtk_redencion']['fields']['monto_referencial_c']['labelValue']='Monto referencial:';
+$dictionary['qtk_redencion']['fields']['monto_referencial_c']['enable_range_search']='1';
 
  
 
- // created: 2019-06-22 04:07:29
+ // created: 2019-07-18 16:42:42
 $dictionary['qtk_redencion']['fields']['valor_c']['inline_edit']='1';
+$dictionary['qtk_redencion']['fields']['valor_c']['options']='numeric_range_search_dom';
 $dictionary['qtk_redencion']['fields']['valor_c']['labelValue']='Estrellas redimidas:';
+$dictionary['qtk_redencion']['fields']['valor_c']['enable_range_search']='1';
 
  
 
@@ -240,9 +244,11 @@ $dictionary['qtk_redencion']['fields']['qtk_tipo_evento_id_c']['inline_edit']=1;
 
  
 
- // created: 2019-06-22 04:06:55
+ // created: 2019-07-18 16:42:29
 $dictionary['qtk_redencion']['fields']['fecha_redencion_c']['inline_edit']='1';
+$dictionary['qtk_redencion']['fields']['fecha_redencion_c']['options']='date_range_search_dom';
 $dictionary['qtk_redencion']['fields']['fecha_redencion_c']['labelValue']='Fecha de redención:';
+$dictionary['qtk_redencion']['fields']['fecha_redencion_c']['enable_range_search']='1';
 
  
 

@@ -87,3 +87,5 @@ $GLOBALS['app_list_strings']['canal_notificacion_list']=array (
   'P' => 'Push notificación',
   'E' => 'Email',
 );
+$app_strings['LBL_GROUPTAB5_1563328813'] = 'Nuevo Grupo';
+?>
