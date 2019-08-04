@@ -2,30 +2,6 @@
  //WARNING: The contents of this file are auto-generated
 
 
- // created: 2019-06-22 05:34:16
-$layout_defs["Contacts"]["subpanel_setup"]['contacts_qtk_cliente_negocio_calificacion_1'] = array (
-  'order' => 270,
-  'module' => 'qtk_cliente_negocio_calificacion',
-  'subpanel_name' => 'default',
-  'sort_order' => 'desc',
-  'sort_by' => 'fecha_calificacion_c',
-  'title_key' => 'LBL_CONTACTS_QTK_CLIENTE_NEGOCIO_CALIFICACION_1_FROM_QTK_CLIENTE_NEGOCIO_CALIFICACION_TITLE',
-  'get_subpanel_data' => 'contacts_qtk_cliente_negocio_calificacion_1',
-  'top_buttons' => 
-  array (
-    0 => 
-    array (
-      'widget_class' => 'SubPanelTopButtonQuickCreate',
-    ),
-    1 => 
-    array (
-      'widget_class' => 'SubPanelTopSelectButton',
-      'mode' => 'MultiSelect',
-    ),
-  ),
-);
-
-
  // created: 2019-06-22 05:18:56
 $layout_defs["Contacts"]["subpanel_setup"]['contacts_qtk_afiliacion_1'] = array (
   'order' => 220,
@@ -50,15 +26,15 @@ $layout_defs["Contacts"]["subpanel_setup"]['contacts_qtk_afiliacion_1'] = array 
 );
 
 
- // created: 2019-06-22 03:39:34
-$layout_defs["Contacts"]["subpanel_setup"]['contacts_qtk_cuenta_1'] = array (
-  'order' => 210,
-  'module' => 'qtk_cuenta',
+ // created: 2019-06-22 03:21:16
+$layout_defs["Contacts"]["subpanel_setup"]['contacts_qtk_acumulacion_1'] = array (
+  'order' => 230,
+  'module' => 'qtk_acumulacion',
   'subpanel_name' => 'default',
   'sort_order' => 'desc',
-  'sort_by' => 'saldo_disponible_c',
-  'title_key' => 'LBL_CONTACTS_QTK_CUENTA_1_FROM_QTK_CUENTA_TITLE',
-  'get_subpanel_data' => 'contacts_qtk_cuenta_1',
+  'sort_by' => 'fecha_acumulacion_c',
+  'title_key' => 'LBL_CONTACTS_QTK_ACUMULACION_1_FROM_QTK_ACUMULACION_TITLE',
+  'get_subpanel_data' => 'contacts_qtk_acumulacion_1',
   'top_buttons' => 
   array (
     0 => 
@@ -74,15 +50,39 @@ $layout_defs["Contacts"]["subpanel_setup"]['contacts_qtk_cuenta_1'] = array (
 );
 
 
- // created: 2019-06-22 03:21:16
-$layout_defs["Contacts"]["subpanel_setup"]['contacts_qtk_acumulacion_1'] = array (
-  'order' => 230,
-  'module' => 'qtk_acumulacion',
+ // created: 2019-06-22 05:20:21
+$layout_defs["Contacts"]["subpanel_setup"]['contacts_qtk_cupon_juego_1'] = array (
+  'order' => 250,
+  'module' => 'qtk_cupon_juego',
   'subpanel_name' => 'default',
   'sort_order' => 'desc',
-  'sort_by' => 'fecha_acumulacion_c',
-  'title_key' => 'LBL_CONTACTS_QTK_ACUMULACION_1_FROM_QTK_ACUMULACION_TITLE',
-  'get_subpanel_data' => 'contacts_qtk_acumulacion_1',
+  'sort_by' => 'fecha_canje_cupon_c',
+  'title_key' => 'LBL_CONTACTS_QTK_CUPON_JUEGO_1_FROM_QTK_CUPON_JUEGO_TITLE',
+  'get_subpanel_data' => 'contacts_qtk_cupon_juego_1',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
+ // created: 2019-06-19 04:02:05
+$layout_defs["Contacts"]["subpanel_setup"]['contacts_qtk_codigo_cliente_1'] = array (
+  'order' => 280,
+  'module' => 'qtk_codigo_cliente',
+  'subpanel_name' => 'default',
+  'sort_order' => 'desc',
+  'sort_by' => 'fecha_activacion_c',
+  'title_key' => 'LBL_CONTACTS_QTK_CODIGO_CLIENTE_1_FROM_QTK_CODIGO_CLIENTE_TITLE',
+  'get_subpanel_data' => 'contacts_qtk_codigo_cliente_1',
   'top_buttons' => 
   array (
     0 => 
@@ -170,39 +170,15 @@ $layout_defs["Contacts"]["subpanel_setup"]['contacts_qtk_partida_1'] = array (
 );
 
 
- // created: 2019-06-22 05:20:21
-$layout_defs["Contacts"]["subpanel_setup"]['contacts_qtk_cupon_juego_1'] = array (
-  'order' => 250,
-  'module' => 'qtk_cupon_juego',
+ // created: 2019-06-22 05:34:16
+$layout_defs["Contacts"]["subpanel_setup"]['contacts_qtk_cliente_negocio_calificacion_1'] = array (
+  'order' => 270,
+  'module' => 'qtk_cliente_negocio_calificacion',
   'subpanel_name' => 'default',
   'sort_order' => 'desc',
-  'sort_by' => 'fecha_canje_cupon_c',
-  'title_key' => 'LBL_CONTACTS_QTK_CUPON_JUEGO_1_FROM_QTK_CUPON_JUEGO_TITLE',
-  'get_subpanel_data' => 'contacts_qtk_cupon_juego_1',
-  'top_buttons' => 
-  array (
-    0 => 
-    array (
-      'widget_class' => 'SubPanelTopButtonQuickCreate',
-    ),
-    1 => 
-    array (
-      'widget_class' => 'SubPanelTopSelectButton',
-      'mode' => 'MultiSelect',
-    ),
-  ),
-);
-
-
- // created: 2019-06-19 04:02:05
-$layout_defs["Contacts"]["subpanel_setup"]['contacts_qtk_codigo_cliente_1'] = array (
-  'order' => 280,
-  'module' => 'qtk_codigo_cliente',
-  'subpanel_name' => 'default',
-  'sort_order' => 'desc',
-  'sort_by' => 'fecha_activacion_c',
-  'title_key' => 'LBL_CONTACTS_QTK_CODIGO_CLIENTE_1_FROM_QTK_CODIGO_CLIENTE_TITLE',
-  'get_subpanel_data' => 'contacts_qtk_codigo_cliente_1',
+  'sort_by' => 'fecha_calificacion_c',
+  'title_key' => 'LBL_CONTACTS_QTK_CLIENTE_NEGOCIO_CALIFICACION_1_FROM_QTK_CLIENTE_NEGOCIO_CALIFICACION_TITLE',
+  'get_subpanel_data' => 'contacts_qtk_cliente_negocio_calificacion_1',
   'top_buttons' => 
   array (
     0 => 
@@ -266,36 +242,32 @@ $layout_defs["Contacts"]["subpanel_setup"]['contacts_qtk_cliente_negocio_1'] = a
 );
 
 
-//auto-generated file DO NOT EDIT
-$layout_defs['Contacts']['subpanel_setup']['contacts_qtk_afiliacion_1']['override_subpanel_name'] = 'Contact_subpanel_contacts_qtk_afiliacion_1';
+ // created: 2019-06-22 03:39:34
+$layout_defs["Contacts"]["subpanel_setup"]['contacts_qtk_cuenta_1'] = array (
+  'order' => 210,
+  'module' => 'qtk_cuenta',
+  'subpanel_name' => 'default',
+  'sort_order' => 'desc',
+  'sort_by' => 'saldo_disponible_c',
+  'title_key' => 'LBL_CONTACTS_QTK_CUENTA_1_FROM_QTK_CUENTA_TITLE',
+  'get_subpanel_data' => 'contacts_qtk_cuenta_1',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
 
 
 //auto-generated file DO NOT EDIT
-$layout_defs['Contacts']['subpanel_setup']['contacts_qtk_cupon_juego_1']['override_subpanel_name'] = 'Contact_subpanel_contacts_qtk_cupon_juego_1';
-
-
-//auto-generated file DO NOT EDIT
-$layout_defs['Contacts']['subpanel_setup']['contacts_qtk_acumulacion_1']['override_subpanel_name'] = 'Contact_subpanel_contacts_qtk_acumulacion_1';
-
-
-//auto-generated file DO NOT EDIT
-$layout_defs['Contacts']['subpanel_setup']['contacts_qtk_redencion_1']['override_subpanel_name'] = 'Contact_subpanel_contacts_qtk_redencion_1';
-
-
-//auto-generated file DO NOT EDIT
-$layout_defs['Contacts']['subpanel_setup']['contacts_qtk_cliente_negocio_1']['override_subpanel_name'] = 'Contact_subpanel_contacts_qtk_cliente_negocio_1';
-
-
-//auto-generated file DO NOT EDIT
-$layout_defs['Contacts']['subpanel_setup']['contacts_qtk_cuenta_1']['override_subpanel_name'] = 'Contact_subpanel_contacts_qtk_cuenta_1';
-
-
-//auto-generated file DO NOT EDIT
-$layout_defs['Contacts']['subpanel_setup']['contacts_qtk_log_notificacion_cliente_1']['override_subpanel_name'] = 'Contact_subpanel_contacts_qtk_log_notificacion_cliente_1';
-
-
-//auto-generated file DO NOT EDIT
-$layout_defs['Contacts']['subpanel_setup']['contacts_qtk_codigo_cliente_1']['override_subpanel_name'] = 'Contact_subpanel_contacts_qtk_codigo_cliente_1';
+$layout_defs['Contacts']['subpanel_setup']['contacts_qtk_reverso_1']['override_subpanel_name'] = 'Contact_subpanel_contacts_qtk_reverso_1';
 
 
 //auto-generated file DO NOT EDIT
@@ -303,7 +275,11 @@ $layout_defs['Contacts']['subpanel_setup']['contacts_qtk_cliente_negocio_calific
 
 
 //auto-generated file DO NOT EDIT
-$layout_defs['Contacts']['subpanel_setup']['contacts_qtk_partida_1']['override_subpanel_name'] = 'Contact_subpanel_contacts_qtk_partida_1';
+$layout_defs['Contacts']['subpanel_setup']['contacts_qtk_cliente_negocio_1']['override_subpanel_name'] = 'Contact_subpanel_contacts_qtk_cliente_negocio_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Contacts']['subpanel_setup']['contacts_qtk_redencion_1']['override_subpanel_name'] = 'Contact_subpanel_contacts_qtk_redencion_1';
 
 
 //auto-generated file DO NOT EDIT
@@ -311,6 +287,30 @@ $layout_defs['Contacts']['subpanel_setup']['documents']['override_subpanel_name'
 
 
 //auto-generated file DO NOT EDIT
-$layout_defs['Contacts']['subpanel_setup']['contacts_qtk_reverso_1']['override_subpanel_name'] = 'Contact_subpanel_contacts_qtk_reverso_1';
+$layout_defs['Contacts']['subpanel_setup']['contacts_qtk_codigo_cliente_1']['override_subpanel_name'] = 'Contact_subpanel_contacts_qtk_codigo_cliente_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Contacts']['subpanel_setup']['contacts_qtk_afiliacion_1']['override_subpanel_name'] = 'Contact_subpanel_contacts_qtk_afiliacion_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Contacts']['subpanel_setup']['contacts_qtk_partida_1']['override_subpanel_name'] = 'Contact_subpanel_contacts_qtk_partida_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Contacts']['subpanel_setup']['contacts_qtk_acumulacion_1']['override_subpanel_name'] = 'Contact_subpanel_contacts_qtk_acumulacion_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Contacts']['subpanel_setup']['contacts_qtk_cupon_juego_1']['override_subpanel_name'] = 'Contact_subpanel_contacts_qtk_cupon_juego_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Contacts']['subpanel_setup']['contacts_qtk_log_notificacion_cliente_1']['override_subpanel_name'] = 'Contact_subpanel_contacts_qtk_log_notificacion_cliente_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Contacts']['subpanel_setup']['contacts_qtk_cuenta_1']['override_subpanel_name'] = 'Contact_subpanel_contacts_qtk_cuenta_1';
 
 ?>

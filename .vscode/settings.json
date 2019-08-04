@@ -1,0 +1,25 @@
+{
+    "sqltools.connections": [
+        {
+            "askForPassword": false,
+            "connectionTimeout": 60,
+            "database": "suitecrm",
+            "dialect": "MySQL",
+            "name": "SuiteCRM",
+            "password": "Ad123456",
+            "port": 3306,
+            "server": "172.30.1.22",
+            "username": "ubuntu"
+        },
+        {
+            "connectionTimeout": 30,
+            "database": "suitecrm",
+            "dialect": "MySQL",
+            "name": "VincoDesarrollo",
+            "password": "V!nco123",
+            "port": 3306,
+            "server": "localhost",
+            "username": "root"
+        }
+    ]
+}
