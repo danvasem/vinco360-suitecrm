@@ -26,10 +26,9 @@ class cSeguridad
         catch(Throwable $e){
             $log->debug("QUANTIK: AsignaGrupoSeguridadNegocioVinco, Error: " .$e->getMessage(). ' - ' .$e->getLangMessage());
         }
-
     }
 
-    // Permite quitar el grupo de seguridad a un registro de negocio que se elimina manualmente
+    // Permite quitar el grupo de seguridad a un registro de negocio que se elimina manualmente.
     function RemueveGrupoSeguridadNegocioVinco($bean, $event, $arguments)
     {
         global $log;       
@@ -50,9 +49,10 @@ class cSeguridad
         catch(Throwable $e){
             $log->debug("QUANTIK: RemueveGrupoSeguridadNegocioVinco, Error: " .$e->getMessage(). ' - ' .$e->getLangMessage());
         }
-
     }
 
+    // Permite asignar grupo de seguridad al registro de donde se invoque el logic_hook, en base a el
+    // negocio relacionado.
     function AsignaGrupoSeguridadRegistroVinco($bean, $event, $arguments)
     {
         global $log;      
@@ -60,9 +60,11 @@ class cSeguridad
             $beanNegocio = $arguments['related_bean']; 
             if ($beanNegocio->module_dir == 'qtk_negocio')   { //Evaluamos con el modulo padre principal de donde se va a heredar el o los Grupos de seguridad
                 if ($bean->object_name == 'qtk_codigo_cliente'){ // Si es el módulo Vincard, evaluamos la relación de Negocio activación?
-                    $beanListGruposSeguridad = $beanNegocio->get_linked_beans('qtk_negocio_securitygroups_2',
-                    'SecurityGroup',
-                    array(), 0, 5, 0);
+                    if ($arguments['link'] == 'qtk_negocio_qtk_codigo_cliente_1'){
+                        $beanListGruposSeguridad = $beanNegocio->get_linked_beans('qtk_negocio_securitygroups_1',
+                        'SecurityGroup',
+                        array(), 0, 5, 0);
+                    }
                 } else {
                     $beanListGruposSeguridad = $beanNegocio->get_linked_beans('qtk_negocio_securitygroups_1',
                     'SecurityGroup',
@@ -80,9 +82,10 @@ class cSeguridad
         catch(Throwable $e){            
             $log->debug("QUANTIK: AsignaGrupoSeguridadRegistroVinco, Error: " .$e->getMessage(). ' - ' .$e->getLangMessage());
         }
-
     }
 
+    // Permite asignar grupo(s) de seguridad al registro de Cliente Negocio y Cliente, en base a el
+    // registro del negocio relacionado.
     function AsignaGrupoSeguridadRegistroCliente($bean, $event, $arguments){
         global $log;       
         try{  
@@ -117,6 +120,8 @@ class cSeguridad
         }
     }
 
+    // Permite remover grupo(s) de seguridad al registro de Cliente Negocio y Cliente, en base a el
+    // registro del negocio relacionado.
     function RemueveGrupoSeguridadRegistroVinco($bean, $event, $arguments)
     {
         global $log;       
@@ -148,6 +153,32 @@ class cSeguridad
         catch(Throwable $e){
             $log->debug("QUANTIK: RemueveGrupoSeguridadRegistroVinco, Error: " .$e->getMessage(). ' - ' .$e->getLangMessage());
         }
+    }
+
+    // Permite asignar grupo(s) de seguridad al registro de Partida, en base a el
+    // registro del negocio relacionado.
+    function AsignaGrupoSeguridadRegistroSinRelacion($bean, $event, $arguments)
+    {
+        global $log;       
+        try{  
+            if ($bean->object_name == 'qtk_partida'){                
+                $beanNegocio = BeanFactory::getBean('qtk_negocio', $bean->qtk_negocio_id_c);    
+                $beanListGruposSeguridad = $beanNegocio->get_linked_beans('qtk_negocio_securitygroups_1',
+                'SecurityGroup',
+                array(), 0, 5, 0); 
+                foreach($beanListGruposSeguridad as $beanGrupoSeguridad) {
+                    if ($bean->load_relationship('SecurityGroups')){
+                        $log->debug('QUANTIK: Antes de asignar grupo de seguridad en módulo ' .$bean->object_name);
+                        $bean->SecurityGroups->add($beanGrupoSeguridad); 
+                        $log->debug('QUANTIK: Grupo de seguridad es asignado correctamente en el módulo ' .$bean->object_name);                  
+                    }                     
+                }                                                                                 
+            }            
+        }    
+        catch(Throwable $e){
+            $log->debug("QUANTIK: AsignaGrupoSeguridadRegistroSinRelacion, Error: " .$e->getMessage(). ' - ' .$e->getLangMessage());
+        }
+
     }
 }
 ?>
